@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Mono");
+
+body {
+    margin-top: 1em;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    padding: 0.5em;
+    border: 1px solid;
+    border-color: rgba(75, 75, 75, 1.00);
+    background-color: #111111;
+    color: rgba(222, 222, 222, 1.00);
+    font-family: "IBM Plex Sans", Roboto, Calibri, Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: rgba(106, 152, 175, 1.00);
+}
+
+a:visited {
+    color: rgba(166, 121, 210, 1.00);
+}
+
+.theblueguy {
+    background-color: #222222;
+    margin: -0.5em;
+    padding: 0.5em;
+}
+
+h1 {
+    font-size: 36pt;
+    line-height: 1em;
+}
+
+h2, h3 {
+    padding-top: 21px;
+    font-size: 15pt;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+hr {
+    border: 1px gray solid;
+}
