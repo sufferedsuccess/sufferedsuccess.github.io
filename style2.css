@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Mono");
 
 body {
-    margin-top: 1em;
-    left: 10%;
-    right: 10%;
-    padding: 0.5em;
-    background-color: #121212;
-    color: rgba(222, 222, 222, 1.00);
-    font-family: "IBM Plex Sans", Roboto, Calibri, Helvetica, Arial, sans-serif;
+    background-color: #121212; /* The correct dark shade */
+    color: rgba(222, 222, 222, 1.00); /* Off-white text */
+    margin: 2em 10%; /* Keeps it from hitting the very edge of the screen */
+    font-family: "IBM Plex Mono", monospace; /* Use the Mono font for that raw look */
+    line-height: 1.6; /* Makes the raw text easier to read */
 }
 
 a {
@@ -18,10 +16,11 @@ a:visited {
     color: rgba(166, 121, 210, 1.00);
 }
 
+/* Remove these if they are still in your file to ensure no boxes appear */
 .theblueguy {
-    background-color: #121212;
-    margin: -0.5em;
-    padding: 0.5em;
+    background-color: transparent; 
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
